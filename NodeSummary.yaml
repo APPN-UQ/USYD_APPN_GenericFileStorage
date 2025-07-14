@@ -32,6 +32,24 @@ nodes:  # Top-level key, now containing a list of nodes
       - H30T
       - RHIZO
 
+nodes:  # Top-level key, now containing a list of nodes
+  - name: "UQ"
+    university: "University of Queensland"
+    location: "Brisbane, QLD, Australia"
+    SensorPlatforms:
+      - GOBI
+      - HIRES
+      - M3M
+      - CALVIS
+      - PHENOMATE
+      - MOLE
+      - TEMS
+      - PTEMS
+      - LITERAL
+      - H30T
+      - RHIZO
+
+
 
   # - name: "Another_Node" # Add another node here
   #   university: "University of Sydney"
